@@ -26,6 +26,7 @@ public class FileResource {
 
     private static final Logger LOG = LoggerFactory.getLogger(FileResource.class);
 
+    //Importante: El directorio /uploads, debe estar creado
     public static final String DIRECTORY = System.getProperty("user.home") + "/Downloads/uploads";
 
     @PostMapping("/upload")
